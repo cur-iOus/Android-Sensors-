@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:padding="10dp"
+	android:orientation="vertical"
+	android:background="#C9C9C9">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="SENSORS"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textSize="40sp"
+		android:textStyle="bold"
+		android:background="#000000"
+		android:textColor="#C9C9C9"
+		android:gravity="center"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:textColor="#000000"
+		android:id="@+id/totalSensorsID"
+		android:layout_marginBottom="5dp"/>
+
+	<ScrollView
+		android:id="@+id/scrollViewID"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<TextView
+			android:id="@+id/textViewID"
+			android:textSize="25dp"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:textStyle="italic"
+			android:textColor="#C9C9C9"
+			android:background="#000000"
+			android:paddingLeft="10dp"/>
+
+	</ScrollView>
+
+</LinearLayout>
+
